@@ -5,8 +5,8 @@
 }
 
 body{
-    padding-top: 1vh;
-    background-color: #1b1b1b;
+    padding-top: 1vh; /*it's the height of the viewport that tiny line up*/
+    background-color: #1b1b1b;/*it changes that tiny line above our picture */
     background-size: unset;
     background-repeat: repeat;
     height: 98vh;
@@ -14,7 +14,7 @@ body{
 
 nav{
     display: flex;
-    height: 6%;
+    height: 7.5%;/*the height of the whole section (the one where it has our pic and the discription*/
     background-color: #202c33;
 }
 
@@ -32,6 +32,7 @@ nav{
     height: auto;
     margin: auto 0px;
     margin-left: 10px;
+    
 }
 
 .navbar .personalInfo{
@@ -332,7 +333,7 @@ footer{
     float: left;
     width: 80%;
     height: 100%;
-    outline-color: transparent;
+    outline-color:transparent;
     accent-color: transparent;
     background-color: #2a3942;
     outline: none;
@@ -341,8 +342,8 @@ footer{
 
 
 ::placeholder { 
-    color: #8696a0;
-    opacity: 1; 
+    color: #8696a0;/*the color of the type message*/
+    opacity: 1; /*the level of the color's brightness */
   }
   
   :-ms-input-placeholder { 
